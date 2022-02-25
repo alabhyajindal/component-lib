@@ -18,7 +18,7 @@ Get started by **creating a new HTML file**.
 
 In order to use this library in your project,you need to copy the below link and paste it inside the `<head>` tag of your html file and use a predefined classes in your project.
 
-`<link rel="stylesheet" href="">`
+`<link rel="stylesheet" href="<link rel="stylesheet" href="https://butters-aj.vercel.app/css/components.css"/>">`
 
 You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
 
