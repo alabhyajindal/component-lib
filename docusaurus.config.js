@@ -4,11 +4,11 @@
 const lightCodeTheme = require("prism-react-renderer/themes/github");
 const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
-/** @type {import('@docusaurus/types').Config} */
+// /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "My Site",
   tagline: "Dinosaurs are cool",
-  url: "https://your-docusaurus-test-site.com",
+  url: "https://butters-aj.vercel.app",
   baseUrl: "/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
@@ -24,14 +24,12 @@ const config = {
         docs: {
           sidebarPath: require.resolve("./sidebars.js"),
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/alabhyajindal/component-lib",
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
-          editUrl:
-            "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/",
+          editUrl: "https://github.com/alabhyajindal/component-lib",
         },
         theme: {
           customCss: require.resolve("./src/css/custom.css"),
@@ -57,7 +55,7 @@ const config = {
             label: "Tutorial",
           },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "",
             label: "GitHub",
             position: "right",
           },
@@ -85,7 +83,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Butters Component Library, Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
